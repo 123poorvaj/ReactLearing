@@ -1,0 +1,37 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.cardbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.card {
+  width: 300px;
+  margin: 20PX;
+  height: 230px;
+  border: 2px black solid;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cardImg {
+  height: 70px;
+  border: 1px solid burlywood;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.cardImg>img {
+  width: 70px;
+}
