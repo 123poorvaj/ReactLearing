@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.novbar {
+    border: 2px solid black;
+    padding: 10px;
+    font-family: "roboto";
+    margin: 10px;
+}
+
+.navitemCotainer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    text-align: center;
+}
+
+.items {
+    text-decoration: none;
+    color: red;
+}
+
+.items>a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
